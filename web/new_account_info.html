@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an account</title>
+</head>
+<body>
+    <style>
+    form  { display: table;      }
+    p     { display: table-row;  }
+    label { display: table-cell; }
+    input { display: table-cell; }
+    </style>
+   <form action="create_account.php" method="post">
+       <p>
+            <label for="username">Username:</label>
+            <input type="text" name="username"><br>
+       </p>
+       <p>
+            <label for="password">Password:</label>
+            <input type="password" name="password"><br>
+       </p>
+        <p>
+            <label for="confirmpass">Confirm Password:</label>
+            <input type="password" name="confirmpass"><br>
+        </p>
+        <p>
+            <label for="email">Email adress:</address></label>
+            <input type="email" name="email"><br>
+        </p>
+       <input type="submit" value="create account">
+   </form> 
+</body>
+</html>
